@@ -1,1 +1,6 @@
 pytest>=7.0.0
+
+# Tuỳ chọn — chỉ cần cho chế độ LIVE (gọi OpenAI thật).
+# Thiếu 2 gói này, code vẫn chạy bình thường ở chế độ MOCK.
+openai>=1.0.0
+python-dotenv>=1.0.0
